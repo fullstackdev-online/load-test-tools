@@ -1,0 +1,12 @@
+config:
+  target: "https://google.com"
+  phases:
+    - duration: 5
+      arrivalRate: 1
+      name: Warm up
+scenarios:
+  - name: "test"
+    flow:
+      - get:
+          url: "/"
+      - think: 1

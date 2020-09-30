@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "siege": "node src/siege.js",
+    "artillery": "node src/artillery.js"
+  },
+  "dependencies": {
+    "artillery": "^1.6.1",
+    "pino": "^6.6.1",
+    "siege": "^0.2.0"
+  }
+}
